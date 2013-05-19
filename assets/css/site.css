@@ -37,8 +37,7 @@ ol, ul {
   list-style: none;
 }
 
-blockquote, q {
-}
+/* blockquote, q { } */
 
 table {
   border-collapse: collapse;
@@ -109,10 +108,10 @@ footer p {
 a {
   text-decoration: none;
   color: #007edf;
-  transition: color 0.5s ease;
   -moz-transition: color 0.5s ease;
   -o-transition: color 0.5s ease;
   -ms-transition: color 0.5s ease;
+  transition: color 0.5s ease;
 }
 
 #main_content a:hover {
@@ -133,17 +132,20 @@ strong {
 
 img {
   position: relative;
-  margin: 0 auto;
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 
-  box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+  box-shadow: 0 0 5px #ebebeb;
+}
+
+.monospace {
+  font-family: Consolas, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", Terminal, monospace;
 }
 
 pre, code {
@@ -151,12 +153,12 @@ pre, code {
   color: #222;
   background-color: #fff;
 
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: Consolas, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", Terminal, monospace;
   font-size: 14px;
 
-  border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
+  border-radius: 2px;
 
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
@@ -325,6 +327,18 @@ ul.posts span {
 
 .meta {
   color: #aaa;
+  font-variant: small-caps;
+}
+
+.meta .time {
+  text-transform: uppercase;
+}
+
+.meta .tags {
+  /*border-left: 1px solid #aaa;*/
+  display: inline;
+  /*margin-left: 10px;*/
+  /*padding: 0 0 0 10px;*/
 }
 
 /*******************************************************************************
