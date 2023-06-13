@@ -1,17 +1,8 @@
----
-layout: post
-title: Truth
-tags: ["life"]
----
-
-{{ page.title }}
-================
-
-<p class="meta">
-	<span class="time">May 20, 2013 - Belgium</span>
-	<span class="separator monospace">::</span>
-	<span class="tags">{{ page.tags | join: ", " | upcase}}</span>
-</p>
++++
+title = "Truth"
+date = "2013-05-20T00:00:00+00:00"
+tags = []
++++
 
 I consider truth very very important. At some point in my university life
 I decided to never say a lie again, not even a white lie.

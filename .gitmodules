@@ -1,0 +1,4 @@
+[submodule "themes/bear"]
+	path = themes/bear
+	url = git@github.com:aeurielesn/hugo-bearblog.git
+	branch = urieles.co
