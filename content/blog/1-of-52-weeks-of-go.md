@@ -15,5 +15,8 @@ as my first project for the 52 weeks of Go challenge:
 
 The source code is available at [simple-repository-client-go] on my personal Gitea instance.
 
+To be continued: [2 of 52 weeks of Go: env][next].
+
 [pep-503]: https://peps.python.org/pep-0503/
 [simple-repository-client-go]: https://git.urieles.co/aeurielesn/simple-repository-client-go
+[next]: {{< ref "2-of-52-weeks-of-go" >}}
